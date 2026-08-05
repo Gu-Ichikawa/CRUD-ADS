@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 
 @Entity
 
-public class FuncionarioModels {
+public class FuncionarioModel {
 
 @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -15,7 +15,7 @@ public class FuncionarioModels {
     private String nome;
     private String cpf;
 
-    public FuncionarioModels(){
+    public FuncionarioModel(){
 
     }
 
